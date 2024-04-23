@@ -1,7 +1,30 @@
+import { List, ListItem } from "@mui/material";
+
+import TodoListItem from "./TodoListItem";
+
 const TodoList = () =>  {
     return(
         <>
-            <div>I am the TodoList component</div>
+            <List>
+                <ListItem>
+                    <TodoListItem />
+                </ListItem>
+                <ListItem>
+                    <TodoListItem />
+                </ListItem>
+                <ListItem>
+                    <TodoListItem />
+                </ListItem>
+                <ListItem>
+                    <TodoListItem />
+                </ListItem>
+                <ListItem>
+                    <TodoListItem />
+                </ListItem>
+                <ListItem>
+                    <TodoListItem />
+                </ListItem>
+            </List>
         </>
     );
 }
